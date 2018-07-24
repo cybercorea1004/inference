@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="settercomment_context" deleted="false" description="Comment for setter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment">/**
+ * Comment   : 
+ * @param ${param} the ${bare_field_name} to set
+ */</template><template autoinsert="false" context="overridecomment_context" deleted="false" description="Comment for overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment">
+/**
+* &lt;PRE&gt;
+* 간략 : .
+* 상세 : .
+* &lt;PRE&gt;
+* ${see_to_overridden}
+*/</template><template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+* &lt;PRE&gt;
+* 간략 : .
+* 상세 : .
+* &lt;PRE&gt;
+* ${tags} 
+*/</template><template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+* &lt;pre&gt;
+* 간략 : .
+* 상세 : .
+* ${package_name}
+*   |_ ${file_name}
+* &lt;/pre&gt;
+* 
+* @Company : (주)퀀텀웨이브
+* @Author  : ${user}
+* @Date    : ${date} ${time}
+* @Version : 1.0
+*/
+</template><template autoinsert="false" context="constructorcomment_context" deleted="false" description="Comment for created constructors" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment">/**
+* &lt;PRE&gt;
+* 간략 : .
+* 상세 : .
+* &lt;PRE&gt;
+* Constructor of ${file_name} class 생성자
+* ${tags} 
+*/
+
+</template><template autoinsert="false" context="filecomment_context" deleted="false" description="Comment for created Java files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment">/**
+ * 0. Project  : Qwave 쳇봇 개발을 위한 프로토 타입
+ *
+ * 1. FileName : ${file_name}
+ * 2. Package : ${package_name}
+ * 3. Comment : 
+ * 4. 작성자  : ${user}
+ * 5. 작성일  : ${date} ${time}
+ * 6. 변경이력 : 
+ *                    이름     : 일자          : 근거자료   : 변경내용
+ *                   ------------------------------------------------------
+ *                    ${user} : ${date} :            : 신규 개발.
+ */
+</template><template autoinsert="true" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**
+ * 
+ */</template><template autoinsert="false" context="delegatecomment_context" deleted="false" description="Comment for delegate methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment">/**
+
+ */</template><template autoinsert="false" context="gettercomment_context" deleted="false" description="Comment for getter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**
+ * Comment   : 
+ * @return the ${bare_field_name}
+ */</template></templates>
